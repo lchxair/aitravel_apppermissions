@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>爱旅拍APP敏感权限申请与使用情况说明</title>
+    <style>
+      .app-authority {
+        padding: 0 10px 10px 10px;
+      }
+      .authority-table {
+        border-collapse: separate;
+        border-left: solid 1px black;
+        border-spacing: 0;
+        border-top: solid 1px black;
+        box-sizing: border-box;
+      }
+      .authority-table td,
+      .authority-table th {
+        border-bottom: solid 1px black;
+        border-right: solid 1px black;
+        box-sizing: border-box;
+        display: table-cell;
+        font-size: 14px;
+        padding: 25px 18px;
+        position: relative;
+        text-align: left;
+        vertical-align: top;
+      }
+      .app-authority .text-center {
+        text-align: center;
+      }
+      .mt-20px {
+        margin-top: 20px;
+      }
+      .no-wrap {
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-authority">
+      <h3 class="text-center">爱旅拍APP权限介绍和使用场景说明</h3>
+      <p>1. 为了向你和用户提供服务、保障服务的正常运行以及保障你的账号安全，我们可能会申请或使用操作系统的相关权限。</p>
+      <p>2. 为保障你的知情权，我们通过下列内容将产品可能申请、使用的相关操作系统权限进行展示，你可以根据实际需要对相关权限进行管理。</p>
+      <p>3. 若产品升级或修改，申请、使用权限的类型与目的可能会有变动，我们会及时调整本说明，以确保你及时获悉与权限申请有关的使用目的、使用场景等。</p>
+      <p>4. 请你知悉，我们为业务与产品的功能与安全需要，我们可能也会使用第三方SDK，这些第三方也可能会申请或使用相关操作系统权限。</p>
+      <p>5. 在使用产品的过程中，你可能会使用第三方开发的H5页面或小程序，这些第三方开发的插件或小程序也可能因业务功能所必需而申请或使用相关操作系统权限。</p>
+           <table class="authority-table mt-20px">
+            <tr>
+          <th class="text-center" colspan="3">Android 系统应用权限列表</th>
+        </tr>
+        <tr>
+          <th class="no-wrap">权限名称</th>
+          <th class="no-wrap">权限功能说明</th>
+          <th class="no-wrap">使用目的</th>
+        </tr>
+        <tr>
+          <td class="no-wrap">电话权限
+
+（android）</td>
+          <td>
+            读取手机状态
+          </td>
+          <td>
+            读取手机状态，涉及到用户设备标识信息，用于识别用户、保障您的账号、网络、运营及系统安全
+          </td>
+        </tr>
+        <tr>
+          <td class="no-wrap">相册读写权限</td>
+          <td>读写相册图片</td>
+          <td>用于在各个使用场景读取系统相册的数据，比如从系统相册导入照片或视频到爱旅拍相机、相册。</td>
+        </tr>
+        <tr>
+          <td class="no-wrap">相机权限</td>
+          <td>允许使用相机</td>
+          <td>用于产品的拍照、视频录制的功能</td>
+        </tr>
+        <tr>
+          <td class="no-wrap">通知权限</td>
+          <td>向用户发送通知</td>
+          <td>向用户推送平台活动、互动信息等</td>
+        </tr>
+      </table>
+      <table class="authority-table mt-20px">
+        <tr>
+          <th class="text-center" colspan="3">iOS 系统应用权限列表</th>
+        </tr>
+        <tr>
+          <th class="no-wrap">权限名称</th>
+          <th class="no-wrap">权限功能说明</th>
+          <th class="no-wrap">使用场景和目的</th>
+        </tr>
+        <tr>
+          <td class="no-wrap">NSCamerUsageDescription（相机权限）</td>
+          <td>
+            申请访问系统摄像头获取的数据。
+          </td>
+          <td>
+            用于包括但不限于拍摄照片和视频等用于捕获图像的场景。
+          </td>
+        </tr>
+        <tr>
+          <td class="no-wrap">NSPhotoLibraryUsageDescription（相册权限）</td>
+          <td>申请访问系统相册的数据。</td>
+          <td>用于在各个使用场景读取系统相册的数据，比如从系统相册导入照片或视频到爱旅拍相机、相册。</td>
+        </tr>
+        <tr>
+          <td class="no-wrap">NSPhotoLibraryAddUsageDescription（相册权限）</td>
+          <td>申请向相册中添加内容</td>
+          <td>将拍摄的照片或视频、生成的拼图或视频保存至手机。</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
